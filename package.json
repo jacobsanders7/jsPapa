@@ -9,10 +9,12 @@
     "mongoose": "^6.6.2",
     "mysql": "^2.18.1"
   },
-  "engines": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jacobsanders7/jsPapa.git"
-  },
-  
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node app.js"
+},
+"engines": {
+  "node": "18.x",
+  "npm": "8.x"
+}
 }
